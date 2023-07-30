@@ -12,6 +12,16 @@ import {
   sap,
   indus_smart,
   consulting,
+  om,
+  CRM,
+  ERP,
+  Network_Monitor,
+  Outsourcing,
+  people,
+  Recruitment,
+  TD,
+  techmig,
+  technical,
 } from "../assets";
 
 export const navLinks = [
@@ -148,7 +158,54 @@ const projects = [
   {
     name: "Operations Management",
     description: ["At PSSTEC we also manage end-to-end solutions for operations which include Managed Services, Monitoring Audit, Staff Augmentation Warranty and Operations Management."],
-    image: consulting,
+    image: om,
+  },
+  {
+    name: "Training and Development",
+    description: ["At PSSTEC we provide Training and Development for Technology, Governance and Soft Skills via Classroom and Learning Management System."],
+    image: TD,
+  },
+  {
+    name: "Technology Migration",
+    description: ["Find hassle-free migration solutions with PSSTEC for both on-premises and on-cloud infrastructures. We handle complex migrations in coordinated manner by zero down the risk and challenges of migration with our experts and reliable designed approach. We focus on migrating with the power of innovation and technological expertise of our team at PSSTEC."],
+    image: techmig,
+  },
+  {
+    name: "Network and Monitoring Services",
+    description: ["With latest in technology, we provide the best managed network services for operations of your organization as well as look after designing and implementing new network architectures. Complete delivery of secure and optimized solution for your business. We also offer 24x7 monitoring services designed with immediate alerts and notifications."],
+    image: Network_Monitor,
+  },
+  {
+    name: "Recruitment",
+    description: ["We know that a hiring process can be taxing and time consuming. With our experience and multi-level screening we make sure that we help you find the right talent. We help acquire skills that are essential and make sure that there is value add by the talent that’s engaged."],
+    image: Recruitment,
+  },
+  {
+    name: "Outsourcing Process",
+    description: ["At PSSTEC, we handle complex tasks and load of your work via our outsourcing processes. Not only it can be easily onboard with flexibility on our commitments, but also with our intelligent customisable workflows which increases overall efficiency."],
+    image: Outsourcing,
+  },
+  {
+    name: "Enterprise Resource Planning",
+    description: ["PSSTEC delivers business and technology innovation by using a cross-functional, workshop-driven methodology to leverage industry best practices and academic research excellence, and has supported large and complex enterprise systems for extended periods by designing efficient, low-risk processes for software support, maintenance and enhancement."],
+    image: ERP,
+  },
+  {
+    name: "Technical Capabilities",
+    description: ["PSSTEC has an adequate experience of implementing ERP rollouts for many prestigious customers. We have developed mature processes that would minimize the learning curve and communication gaps. It enables us to deliver upon seamless ERP rollouts and upgrades which meet our client’s business and technical requirements."],
+    image: technical,
+  },
+  {
+    name: "People Capabilities",
+    description: ["PSSTEC has a team of competent professionals to serve its customers. PSSTEC’s professionals have deep experience of developing large and complex enterprise resource planning software solutions in outsource delivery models. Our professionals are certified in the latest tools and technologies including a number of certifications around Microsoft and Cloud platforms."],
+    image: people,
+  },
+  {
+    name: "Customer Relationship Management",
+    description: ["\n" +
+    "Customer Relationship Management\n" +
+    "PSSTEC’s strategic consulting, CRM implementation, deployment and training solutions help companies rapidly re-engineer front-office processes and technologies to engage more customers and drive better sales results. PSSTEC has CRM expertise of configuring, implementing, customizing and supporting the leading CRM technologies."],
+    image: CRM,
   },
 ];
 

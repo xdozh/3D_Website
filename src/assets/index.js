@@ -18,7 +18,17 @@ import Viavi from "./partners/Viavi.png";
 import cygnature from "./partners/cygnature.png";
 
 import consulting from "./company/consulting.png";
-import indus_smart from "./company/indus_smart.png"
+import indus_smart from "./company/indus_smart.png";
+import om from "./company/om.png";
+import CRM from "./company/CRM.png";
+import ERP from "./company/ERP.png";
+import Network_Monitor from "./company/Network_Monitor.png";
+import Outsourcing from "./company/Outsourcing.png";
+import people from "./company/people.png";
+import Recruitment from "./company/Recruitment.png";
+import TD from "./company/TD.png";
+import techmig from "./company/techmig.png";
+import technical from "./company/technical.png";
 
 export {
   logo,
@@ -39,5 +49,15 @@ export {
   sap,
   consulting,
   indus_smart,
+  om,
+  CRM,
+  ERP,
+  Network_Monitor,
+  Outsourcing,
+  people,
+  Recruitment,
+  TD,
+  techmig,
+  technical,
   logo1bg,
 };
