@@ -174,9 +174,8 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Consulting and Advisory",
+    description: ["We provide consulting and advisory on Digital Transformation, Technology Transformation, Cyber Security, GRC, TCO Re-engineering, Procurement as Service, and Digital Marketing."],
     tags: [
       {
         name: "react",
