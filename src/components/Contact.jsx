@@ -121,7 +121,7 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
-        <div className="social-icons-container">
+        <div>
           {/* Add your social handles here with icons */}
           <a href="https://www.linkedin.com/your-profile" target="_blank" rel="noopener noreferrer" className='text-white font-medium flex items-center social-link'>
             <FontAwesomeIcon icon={faLinkedin} className="mr-2" />
