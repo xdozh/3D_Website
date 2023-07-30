@@ -13,10 +13,8 @@ import {
   nodejs,
   mongodb,
   git,
-  meta,
   starbucks,
   tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -24,17 +22,19 @@ import {
 } from "../assets";
 
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
+
   {
     id: "work",
-    title: "Works",
+    title: "Services",
+  },
+
+  {
+    id: "about",
+    title: "About Us",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contact Us",
   },
 ];
 
