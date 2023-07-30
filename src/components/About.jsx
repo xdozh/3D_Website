@@ -24,14 +24,15 @@ const ServiceCard = ({ index, title, icon ,description}) => {
                         scale: isHovered ? 1.2 : 1.0, // Apply the scale transformation based on the hover state
                         speed: 50,
                     }}
-                    className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+                    className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[320px] flex justify-evenly items-center flex-col'
+                    // Increase the height by changing min-h-[280px] to min-h-[320px] or any other desired height.
                 >
                     <img src={icon} alt='web-development' className='w-12 h-12 object-contain' />
 
                     <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
-                    <h3 className='text-white text-[10px] font-bold text-center'>
+                    <h1 className='text-secondary text-[14px]  text-center'>
                         {description}
-                    </h3>
+                    </h1>
                 </div>
             </motion.div>
         </Tilt>
