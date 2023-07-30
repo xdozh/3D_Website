@@ -6,7 +6,7 @@ import React, { useState } from 'react'; // Import useState hook to manage the h
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 
-const ServiceCard = ({ index, title, icon }) => {
+const ServiceCard = ({ index, title, icon ,description}) => {
   const [isHovered, setIsHovered] = useState(false); // State to keep track of the hover state
 
   return (
@@ -29,6 +29,9 @@ const ServiceCard = ({ index, title, icon }) => {
           <img src={icon} alt='web-development' className='w-16 h-16 object-contain' />
 
           <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
+          <h3 className='text-white text-[10px] font-bold text-center'>
+            {description}
+          </h3>
         </div>
       </motion.div>
     </Tilt>
