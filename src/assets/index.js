@@ -1,5 +1,5 @@
 import logo from "./logo.png";
-import logoRemoved from "./logoRemoved.png"
+import logo1bg from "./logo1bg.png"
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -60,5 +60,5 @@ export {
   carrent,
   jobit,
   tripguide,
-  logoRemoved
+  logo1bg,
 };
