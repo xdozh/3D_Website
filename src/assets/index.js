@@ -17,12 +17,8 @@ import Nutanix1 from "./partners/Nutanix1.png";
 import Viavi from "./partners/Viavi.png";
 import cygnature from "./partners/cygnature.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import consulting from "./company/consulting.png";
+import indus_smart from "./company/indus_smart.png"
 
 export {
   logo,
@@ -41,10 +37,7 @@ export {
   Viavi,
   cygnature,
   sap,
-  meta,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  consulting,
+  indus_smart,
   logo1bg,
 };

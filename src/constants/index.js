@@ -10,9 +10,8 @@ import {
   Viavi,
   cygnature,
   sap,
-  carrent,
-  jobit,
-  tripguide,
+  indus_smart,
+  consulting,
 } from "../assets";
 
 export const navLinks = [
@@ -139,64 +138,17 @@ const projects = [
   {
     name: "Consulting and Advisory",
     description: ["We provide consulting and advisory on Digital Transformation, Technology Transformation, Cyber Security, GRC, TCO Re-engineering, Procurement as Service, and Digital Marketing."],
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: consulting,
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    name: "Industry Smart Solution",
+    description: ["Our AI and Predictive analysis tools intelligently identify the real business needs for cloud, IOT, and APP based solution with AI and Predictive Analysis."],
+    image: indus_smart,
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    name: "Operations Management",
+    description: ["At PSSTEC we also manage end-to-end solutions for operations which include Managed Services, Monitoring Audit, Staff Augmentation Warranty and Operations Management."],
+    image: consulting,
   },
 ];
 
