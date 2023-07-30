@@ -1,6 +1,5 @@
 import {
   mobile,
-  backend,
   creator,
   web,
   javascript,
@@ -39,19 +38,18 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Web Developer",
-    icon: mobile,
-  },
-  {
-    title: "React Developer",
+    title: "Sustainable Solutions",
+    description: "PSSTEC is a tech-innovation and talent management company. We provide cutting edge Information and Communication Technology (ICT) solutions and services across industries. To sum up, we provide robust and sustainable solutions.",
     icon: web,
   },
   {
-    title: "Problem Solver",
+    title: "Goal Oriented",
+    description: "Our expertise in niche market sectors, project management, and unparalleled design implementation with a vendor-agnostic approach helps build solutions for immediate and long term goals of customer and keep them ahead of competitive world.",
+    icon: mobile,
+  },
+  {
+    title: "Customized Design",
+    description: "At PSSTEC, we facilitate clients by transforming mechanical business processes into digital systems by deep technology assessment. We at PSSTEC strive to give your business a competitive advantage by creating value with customized design solutions.",
     icon: creator,
   },
 ];
