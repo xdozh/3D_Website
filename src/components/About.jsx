@@ -52,7 +52,7 @@ const About = () => {
         As a skilled and driven computer science student, I have a solid foundation in essential subjects like Data Structures and Algorithms, Database Management System, Operating Systems, and Algorithm Design. Proficient in C++, C, Python, and Java, I leverage my programming knowledge to work with modern web technologies such as React, Next.js, Node.js, and MongoDB. These technologies allow me to build dynamic and responsive web applications, utilizing the power of front-end frameworks, server-side rendering, and NoSQL databases. With a passion for software development and a focus on innovative projects, I aim to make meaningful contributions to the industry using these cutting-edge technologies.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center items-center'>
           {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
