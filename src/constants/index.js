@@ -2,20 +2,17 @@ import {
   mobile,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
+  aws,
+  cisco,
+  gold,
+  nokia,
+  Nutanix1,
+  Viavi,
+  cygnature,
+  sap,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -37,7 +34,7 @@ export const navLinks = [
 const services = [
   {
     title: "Sustainable Solutions",
-    description: "PSSTEC is a tech-innovation and talent management company. We provide cutting edge Information and Communication Technology (ICT) solutions and services across industries. To sum up, we provide robust and sustainable solutions.",
+    description: "PSSTEC is a partners-innovation and talent management company. We provide cutting edge Information and Communication Technology (ICT) solutions and services across industries. To sum up, we provide robust and sustainable solutions.",
     icon: web,
   },
   {
@@ -54,50 +51,37 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "AWS",
+    icon: aws,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Cisco",
+    icon: cisco,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Gold",
+    icon: gold,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "nokia",
+    icon: nokia,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Nutanix1",
+    icon: Nutanix1,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "sap",
+    icon: sap,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Viavi",
+    icon: Viavi,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "cygnature",
+    icon: cygnature,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-
 ];
 
 const experiences = [
