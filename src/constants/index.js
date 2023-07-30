@@ -12,8 +12,6 @@ import {
   nodejs,
   mongodb,
   git,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
@@ -103,39 +101,33 @@ const technologies = [
 ];
 
 const experiences = [
+
   {
-    title: "Project-1(Self Project)",
-    //company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: " ",
+    counter: 1,
+    title: "Examine the world from your view",
+    iconBg: "#FE5D15",
     points: [
-      
-    ],
+      "Our expert expeditiously understands your requisites and represents it to you in a documented format and, makes it easy to understand to all the stakeholders."],
   },
   {
-    title: "Project-2(Self Project)",
-    //company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: " ",
-    points: [
-      
-    ],
+    counter: 2,
+    title: "Turn conception into reality",
+    iconBg: "#FE5D15",
+    points: ["We engender a robust and sustainable solution using the latest technology and trends to keep it open while also accepting all future transmutation in our nimble world."],
+  },
+  {
+    counter: 3,
+    title: "Ontime incremental delivery and support",
+    iconBg: "#FE5D15",
+    points: ["Inspired and focused minds make it possible to build a paradise in record time and to distribute the solutions on time with decent post-engagement support."],
   },
   /*
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    counter: 1,
+    title: "Examine the world from your view",
+    iconBg: "#fff"
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      "Our expert expeditiously understands your requisites and represents it to you in a documented format and, makes it easy to understand to all the stakeholders."],
   },
   {
     title: "Full stack Developer",
