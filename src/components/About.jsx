@@ -1,5 +1,5 @@
 import { styles } from "../styles";
-import { services } from "../constants";
+import { providings } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import React, { useState } from 'react'; // Import useState hook to manage the hover state
@@ -54,7 +54,7 @@ const About = () => {
             </motion.p>
 
             <div className='mt-20 flex flex-wrap gap-10 justify-center items-center'>
-                {services.map((service, index) => (
+                {providings.map((service, index) => (
                     <ServiceCard key={service.title} index={index} {...service} />
                 ))}
             </div>

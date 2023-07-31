@@ -40,7 +40,7 @@ export const navLinks = [
   },
 ];
 
-const services = [
+const providings = [
   {
     title: "Sustainable Solutions",
     description: "PSSTEC is a partners-innovation and talent management company. We provide cutting edge Information and Communication Technology (ICT) solutions and services across industries. To sum up, we provide robust and sustainable solutions.",
@@ -144,8 +144,9 @@ const testimonials = [
   },
 ];
 
-const projects = [
+const service = [
   {
+    serviceId: "Consulting and Advisory",
     name: "Consulting and Advisory",
     description: ["We provide consulting and advisory on Digital Transformation, Technology Transformation, Cyber Security, GRC, TCO Re-engineering, Procurement as Service, and Digital Marketing."],
     image: consulting,
@@ -202,11 +203,10 @@ const projects = [
   },
   {
     name: "Customer Relationship Management",
-    description: ["\n" +
-    "Customer Relationship Management\n" +
-    "PSSTEC’s strategic consulting, CRM implementation, deployment and training solutions help companies rapidly re-engineer front-office processes and technologies to engage more customers and drive better sales results. PSSTEC has CRM expertise of configuring, implementing, customizing and supporting the leading CRM technologies."],
+    description: [
+    "Customer Relationship Management PSSTEC’s strategic consulting, CRM implementation, deployment and training solutions help companies rapidly re-engineer front-office processes and technologies to engage more customers and drive better sales results. PSSTEC has CRM expertise of configuring, implementing, customizing and supporting the leading CRM technologies."],
     image: CRM,
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { providings, technologies, experiences, testimonials, service };
