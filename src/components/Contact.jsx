@@ -121,18 +121,6 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
-        <div>
-          {/* Add your social handles here with icons */}
-          <a href="https://www.linkedin.com/your-profile" target="_blank" rel="noopener noreferrer" className='text-white font-medium flex items-center social-link'>
-            <FontAwesomeIcon icon={faLinkedin} className="mr-2" />
-          </a>
-          <a href="https://leetcode.com/your-profile" target="_blank" rel="noopener noreferrer" className='text-white font-medium flex items-center'>
-              <img src={leetcodeIcon} alt="LeetCode" className="w-6 h-6 mr-2" />
-          </a>
-          <a href="https://codeforces.com/your-profile" target="_blank" rel="noopener noreferrer" className='text-white font-medium flex items-center'>
-              <img src={codeforcesIcon} alt="CodeForces" className="w-6 h-6 mr-2" />
-          </a>            
-        </div>
         
       </motion.div>
       
