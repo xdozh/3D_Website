@@ -19,6 +19,23 @@
   background-color: rgb(0, 0, 0);
 }
 
+.custom-button {
+  background-color: #ffffff;
+  color: #FB8C00;
+  border: 2px solid #FB8C00;
+  padding: 5px 10px;
+  border-radius: 0; /* Set border-radius to 0 to make it rectangular */
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  /* Add any other styles you want */
+}
+
+.custom-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+  /* Add any other hover styles you want */
+}
 
 .hash-span {
   margin-top: -100px;
