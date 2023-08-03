@@ -108,7 +108,7 @@ const Contact = () => {
                             onChange={handleChange}
                             placeholder="What's your good name?"
                             style={{ backgroundColor: 'whitesmoke' }}
-                            className='py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+                            className='py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium'
                         />
                     </label>
                     <label className='flex flex-col'>
@@ -120,7 +120,7 @@ const Contact = () => {
                             onChange={handleChange}
                             placeholder="What's your web address?"
                             style={{ backgroundColor: 'whitesmoke' }}
-                            className='py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+                            className='py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium'
                         />
                     </label>
                     <label className='flex flex-col flex-1'>
@@ -132,7 +132,7 @@ const Contact = () => {
                             onChange={handleChange}
                             placeholder='What you want to say?'
                             style={{ backgroundColor: 'whitesmoke' }}
-                            className='py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+                            className='py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium'
                         />
                     </label>
 
