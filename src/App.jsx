@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Footer } from "./components";
 
 const App = () => {
   return (
@@ -17,6 +17,9 @@ const App = () => {
         <div className='relative z-0'>
           <Contact/>
           <StarsCanvas />
+        </div>
+        <div className={'relative z-0 bg-blue-800 py-2'}> {/* Adjust the "py-2" value to your desired padding */}
+          <Footer />
         </div>
       </div>
     </BrowserRouter>

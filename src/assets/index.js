@@ -30,6 +30,10 @@ import TD from "./company/TD.png";
 import techmig from "./company/techmig.png";
 import technical from "./company/technical.png";
 
+import call from "./icons/call.png";
+import email from "./icons/email.png";
+import location from "./icons/location.png";
+
 export {
   logo,
   backend,
@@ -60,4 +64,7 @@ export {
   techmig,
   technical,
   logo1bg,
+  call,
+  email,
+  location,
 };

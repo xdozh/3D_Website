@@ -22,6 +22,9 @@ import {
   TD,
   techmig,
   technical,
+  email,
+  location,
+  call,
 } from "../assets";
 
 export const navLinks = [
@@ -209,4 +212,25 @@ const service = [
   },
 ];
 
-export { providings, technologies, experiences, testimonials, service };
+const contFoot = [
+    {
+      conemail: "sales@psstec.com",
+      email: email,
+      call: call,
+      location: location,
+      locaj: "PO Box 4422, Ajman,\n" +
+          "United Arab Emirates.",
+      ajnum: " +971 67406660",
+      locdxb: "905-F, IBN Battuta Gate " +
+          "Office Complex, Jebel Ali-1," +
+          "Shaik Zayed Road, Dubai.",
+      dnum2: " +971 545843020",
+      dnum1: " +971 4 3498571 ",
+      indloc: "A3 ,Ground Floor\n" +
+          "Sector 59, Noida, India.",
+      indnum1: "+91 99101 66197",
+      indnum2: "+91 99997 17699",
+    }
+];
+
+export { providings, technologies, experiences, testimonials, service, contFoot };

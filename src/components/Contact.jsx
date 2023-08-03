@@ -83,15 +83,15 @@ const Contact = () => {
                 {/* Social Media Icons */}
                 <div className='flex gap-4 mb-4'>
                     {/* Replace "YOUR_FACEBOOK_PROFILE_URL" with your actual Facebook profile URL */}
-                    <a href='YOUR_FACEBOOK_PROFILE_URL' target='_blank' rel='noopener noreferrer'>
+                    <a href='https://www.facebook.com/PSSTec-104186701526458' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon icon={faFacebook} size='2x' className='text-white hover:text-blue-500' />
                     </a>
                     {/* Replace "YOUR_LINKEDIN_PROFILE_URL" with your actual LinkedIn profile URL */}
-                    <a href='YOUR_LINKEDIN_PROFILE_URL' target='_blank' rel='noopener noreferrer'>
+                    <a href='https://www.linkedin.com/company/psstec/' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon icon={faLinkedin} size='2x' className='text-white hover:text-blue-500' />
                     </a>
                     {/* Replace "YOUR_TWITTER_PROFILE_URL" with your actual Twitter profile URL */}
-                    <a href='YOUR_TWITTER_PROFILE_URL' target='_blank' rel='noopener noreferrer'>
+                    <a href='https://twitter.com/PSSTEC1' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon icon={faTwitter} size='2x' className='text-white hover:text-blue-500' />
                     </a>
                 </div>
